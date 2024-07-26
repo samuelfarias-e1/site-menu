@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #D9D9D9;
+}
+
+nav{
+    background-color: #962525;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: roboto;
+    font-size: 28px;
+    margin-left: 160px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    margin-right: 140px;
+    color: white;
+    font-family: roboto;
+    cursor: pointer;
+}
+
+.house-photo{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+img{
+    width: 1040px;
+    height: 570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+.block-text{
+    position: absolute;
+    right: 200px;
+    top: 300px;
+    color: black;
+    background-color: white;
+    font-family: roboto;
+    width: 250px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.s1{
+    background-color: #962525;
+    width: 1040px;
+    height: 570px;
+    margin-left: 140px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: roboto;
+    font-size: 40px;
+    margin-top: 40px;
+}
+.s2{
+    background-color: #D86C6C;
+    width: 1040px;
+    height: 570px;
+    margin-left: 140px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: roboto;
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282727;
+    font-family: roboto;
+    color: white;
+    margin-top: 40px;
+}
+
